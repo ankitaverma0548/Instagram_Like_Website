@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New post</title>
+</head>
+<body>
+    <h2>Create Your New post</h2>
+    <form method="POST" action="/posts">
+        <input placeholder="Enter username" name="username">
+        <br>
+        <br>
+        <input type="url" id="photoLink" name="image" 
+               placeholder="https://example.com/image.jpg" 
+               required>
+               <br><br>
+        <input type="text" placeholder="Add some caption" name="caption">
+        <br><br>
+        <button>Submit post</button>
+    </form>
+</body>
+</html>

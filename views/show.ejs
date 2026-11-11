@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show in detail</title>
+</head>
+<body>
+    <h2>Here is your post in detail</h2>
+    <h3>Post id : <%= post.id %></h3>
+    <div>
+        <h3>username : @<%= post.username %></h3>
+        <img src="<%= post.image %>" alt="some image">
+        <p> caption :<%= post.caption %></p>
+    </div>
+</body>
+</html>
